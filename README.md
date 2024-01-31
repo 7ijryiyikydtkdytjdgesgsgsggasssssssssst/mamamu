@@ -1,8 +1,8 @@
 
 <p style="text-align: center">
 
-<button>Покорми меня!</button>
-<p>А здесь еды нет</p>
+<button>КТО ЖЕ ЭТО?</button>
+<p>НН КАКОЙ-ТО</p>
 
 <style>
 body {
@@ -19,7 +19,7 @@ position: absolute;
 
 
 
-<img id="myImg" src="jellyfish.png" style="position: relative">
+<img id="myImg" src="https://kartinki.pibig.info/uploads/posts/2023-04/1682095257_kartinki-pibig-info-p-kartinka-neizvestnogo-cheloveka-arti-vkont-1.jpg" style="position: relative">
 </p>
 <script>
 var cat = document.querySelector("img");
@@ -35,7 +35,7 @@ requestAnimationFrame(animate);
 
 var button = document.querySelector("button");
 button.addEventListener("click", function() {
-alert("Маловато будет!");
+alert("ЭТО БЕТМЕН");
 });
 
 document.getElementById('myImg').onclick = myFunction;
